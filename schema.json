@@ -1,0 +1,76 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@gmail.com",
+        "username": "johndoe",
+        "password": "password",
+        "kanbanTasks": [
+          {
+            "taskId": "task_1"
+          },
+          {
+            "taskId": "task_2"
+          }
+        ],
+        "schedules": [
+          {
+            "scheduleId": "schedule_1"
+          },
+          {
+            "scheduleId": "schedule_2"
+          }
+        ]
+      }
+    ],
+    "tasks": [
+      {
+        "id": "task_1",
+        "title": "Task - 29001",
+        "status": "Open",
+        "summary": "Analyze the new requirements gathered from the customer.",
+        "type": "Story",
+        "priority": "Low",
+        "tags": ["Analyze", "Customer"],
+        "estimate": 3.5,
+        "assignee": "Nancy Davloio",
+        "rank": 1,
+        "color": "#02897B",
+        "classes": ["e-story", "e-low", "e-nancy-davloio"]
+      },
+      {
+        "id": "task_2",
+        "title": "Task - 29002",
+        "status": "InProgress",
+        "summary": "Improve application performance",
+        "type": "Improvement",
+        "priority": "Normal",
+        "tags": ["Improvement"],
+        "estimate": 6,
+        "assignee": "Andrew Fuller",
+        "rank": 2,
+        "color": "#6E3B5B",
+        "classes": ["e-improvement", "e-normal", "e-andrew-fuller"]
+      }
+    ],
+    "schedules": [
+      {
+        "id": "schedule_1",
+        "subject": "Space Galaxies and Planets",
+        "location": "Space Center USA",
+        "startTime": "2021-01-11T11:30:00.000Z",
+        "endTime": "2021-01-11T13:00:00.000Z",
+        "categoryColor": "#f57f17"
+      },
+      {
+        "id": "schedule_2",
+        "subject": "Solar System and Space",
+        "location": "Space Center USA",
+        "startTime": "2021-01-12T11:30:00.000Z",
+        "endTime": "2021-01-12T13:00:00.000Z",
+        "categoryColor": "#7fa900"
+      }
+    ]
+  }
+  

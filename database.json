@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "username": "johnsmith",
+      "name": "John Smith",
+      "image": "https://randomuser.me/api/portraits/men/4.jpg",
+      "tasks": [
+        {
+          "assignedToMe": [],
+          "createdByMe": []
+        }
+      ],
+      "projects": [
+        123,
+        124
+      ],
+      "organisations": []
+    },
+    {
+      "id": "855",
+      "username": "janesmith",
+      "name": "Jane Smith",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "tasks": [
+        {
+          "assignedToMe": [],
+          "createdByMe": []
+        }
+      ],
+      "projects": [
+        123,
+        125
+      ],
+      "organisations": []
+    },
+    {
+      "id": "855",
+      "username": "johnjohnson",
+      "name": "John Johnson",
+      "image": "https://randomuser.me/api/portraits/men/17.jpg",
+      "tasks": [
+        {
+          "assignedToMe": [],
+          "createdByMe": []
+        }
+      ],
+      "projects": [
+        123,
+        125
+      ],
+      "organisations": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "123",
+      "title": "Calculus",
+      "description": "Description 1",
+      "showTable": true,
+      "showKanban": true,
+      "showCalendar": true,
+      "showMindMap": true,
+      "users": [
+        "janedoe",
+        "janesmith",
+        "johnsmith"
+      ],
+      "tasks": [
+        {
+          "title": "Task 0",
+          "description": "Description 1",
+          "dueDate": "2024-11-21T18:30:00.000Z",
+          "assignee": "johnsmith",
+          "status": "backlog",
+          "project": "123",
+          "priority": "medium",
+          "organisation": "123",
+          "columnKey": "backlog",
+          "id": 9,
+          "createdAt": "2024-11-27T23:06:29.356Z",
+          "updatedAt": "2024-11-27T23:07:04.357Z",
+          "createdBy": "johndoe"
+        },
+        {
+          "title": "Task 1",
+          "description": "Description",
+          "dueDate": "2024-11-14T18:30:00.000Z",
+          "assignee": "janesmith",
+          "status": "todo",
+          "project": "123",
+          "priority": "medium",
+          "organisation": "123",
+          "columnKey": "todo",
+          "id": 2,
+          "createdAt": "2024-11-27T23:33:20.974Z",
+          "updatedAt": "2024-11-28T00:48:30.009Z",
+          "createdBy": "johndoe"
+        },
+        {
+          "title": "Task 2",
+          "description": "Desc",
+          "dueDate": "2024-11-08T18:30:00.000Z",
+          "assignee": "johnjohnson",
+          "status": "in-progress",
+          "project": "123",
+          "priority": "medium",
+          "organisation": "123",
+          "columnKey": "in-progress",
+          "id": 3,
+          "createdAt": "2024-11-27T23:40:01.082Z",
+          "updatedAt": "2024-11-27T23:44:13.465Z",
+          "createdBy": "johndoe"
+        }
+      ],
+      "mindMap": {
+        "id": "1",
+        "nodes": [
+          {
+            "0": {
+              "id": "1",
+              "type": "dimensions",
+              "dimensions": {
+                "width": 224,
+                "height": 42
+              }
+            },
+            "1": {
+              "id": "2",
+              "type": "dimensions",
+              "dimensions": {
+                "width": 224,
+                "height": 42
+              }
+            },
+            "id": "1",
+            "type": "node",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "data": {
+              "label": "Node 1",
+              "color": "red"
+            }
+          },
+          {
+            "0": {
+              "id": "2",
+              "type": "position",
+              "position": {
+                "x": 312,
+                "y": 165.0833330154419
+              },
+              "dragging": false
+            },
+            "id": "2",
+            "type": "node",
+            "position": {
+              "x": 200,
+              "y": 0
+            },
+            "data": {
+              "label": "Node 2",
+              "color": "blue"
+            }
+          }
+        ],
+        "edges": [
+          {
+            "id": "e1-2",
+            "source": "1",
+            "target": "2",
+            "type": "dashed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "124",
+      "title": "Stock Market Analyser",
+      "description": "Description 2",
+      "showTable": true,
+      "showKanban": true,
+      "showCalendar": false,
+      "showMindMap": true,
+      "users": [
+        "janedoe",
+        "janesmith",
+        "johnsmith"
+      ],
+      "tasks": []
+    },
+    {
+      "id": "125",
+      "title": "Project 3",
+      "description": "Description 3",
+      "showTable": true,
+      "showKanban": true,
+      "showCalendar": true,
+      "showMindMap": true,
+      "users": [
+        "johndoe",
+        "janesmith",
+        "johnsmith"
+      ],
+      "tasks": []
+    }
+  ],
+  "kanbanHeaders": [
+    {
+      "id": "1123",
+      "key": "backlog",
+      "title": "Backlog"
+    },
+    {
+      "id": "2321",
+      "key": "todo",
+      "title": "To Do"
+    },
+    {
+      "id": "3312",
+      "key": "in-progress",
+      "title": "In Progress"
+    },
+    {
+      "id": "4123",
+      "key": "done",
+      "title": "Done"
+    }
+  ],
+  "kanbanTasks": [
+    {
+      "id": "1123",
+      "columnId": 1,
+      "title": "Task 1"
+    },
+    {
+      "id": "2321",
+      "columnId": 2,
+      "title": "Task 2"
+    },
+    {
+      "id": "33123",
+      "columnId": 3,
+      "title": "Task 3"
+    }
+  ]
+}
